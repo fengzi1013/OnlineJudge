@@ -18,7 +18,7 @@ English | [中文文档](https://docs.lduoj.cn) | [开发日志](https://docs.qq
 
 安装docker（若已安装请跳过）；参考文档(opens new window)
 # 0. 先清除与docker相关的残余软件包（适用于多次安装docker失败的情况）
-sudo apt remove docker docker-engine docker.io containerd runc
+echo sudo apt remove docker docker-engine docker.io containerd runc
 # 1. 使用官方脚本安装docker
 apt update
 sudo curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
